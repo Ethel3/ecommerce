@@ -63,7 +63,16 @@
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
+    transition: background 0.5s;
 }
 .header{
     background: radial-gradient(#fff,#ffd6d6);
+}
+.btn:hover{
+    background: #563434;
+}
+
+.header .row{
+    margin: 70px;
+
 }
