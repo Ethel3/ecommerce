@@ -139,3 +139,9 @@ font-size: 14px;
     margin-top: 80px;
     padding: 30px 0;
 }
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
