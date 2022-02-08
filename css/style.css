@@ -134,3 +134,8 @@ font-size: 14px;
 .col-4:hover{
     transform: translateY(-5px);
 }
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
