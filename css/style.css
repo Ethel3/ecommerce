@@ -169,3 +169,13 @@ small{
     font-size: 34px;
     color: #ff523b;
 }
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+ .testimonial .col-3 h3{
+     font-weight: 600;
+     color: #555;
+     font-size: 16px;
+ }
