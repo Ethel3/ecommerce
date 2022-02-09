@@ -179,3 +179,18 @@ small{
      color: #555;
      font-size: 16px;
  }
+ /*----- brands --------*/
+ .brands{
+     margin: 100px;
+ }
+ .col-5{
+     width: 160px;
+ }
+ .col-5 img{
+     width: 100%;
+     cursor: pointer;
+     filter: grayscale(100%);
+ }
+ .col-5 img:hover{
+     filter: grayscale(0);
+ }
