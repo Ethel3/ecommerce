@@ -309,6 +309,31 @@ select:focus{
     color: #fff ;
 }
 
+/*-----single product details------*/
+
+.single-product{
+    margin-top: 80px;
+}
+
+.single-product .col-2 img{
+padding: 0;
+}
+
+.single-product .col-2{
+padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+     display: block;
+     padding: 10px;
+     margin-top: 20px;
+}
+
+
 
 
  /*--- media query for less than 600 screen size ----*/
