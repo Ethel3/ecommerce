@@ -363,6 +363,17 @@ table{
     width: 100%;
     border-collapse: collapse;
 }
+.cart-info{
+   display: flex;
+   flex-wrap: wrap; 
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
 
 
 
