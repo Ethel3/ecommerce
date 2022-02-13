@@ -421,6 +421,14 @@ th:last-child{
        margin: auto;
        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
    }
+   .form-container span{
+       font-weight: bold;
+       padding: 0 10px;
+       color: #555;
+       cursor: pointer;
+       width: 100px;
+       display: inline-block;
+   }
 
 
 
