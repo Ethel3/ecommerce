@@ -429,6 +429,15 @@ th:last-child{
        width: 100px;
        display: inline-block;
    }
+   .form-btn{
+       display: inline-block;
+   }
+   .form-container form{
+       max-width: 300px;
+       padding: 0 20px;
+       position: absolute;
+       top: 130px;
+   }
 
 
 
