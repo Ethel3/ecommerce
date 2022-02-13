@@ -44,17 +44,18 @@
                 <div class="col-2">
                    <div class="form-container">
                        <div class="form-btn">
-                           <span>login</span>
-                           <span>Register</span>
+                           <span onclick="login()">login</span>
+                           <span onclick="register()">Register</span>
+                           <hr id="Indicator">
                         </div>
-                        <form>
+                        <form id="LoginForm">
                             <input type="text" placeholder="User">
                             <input type="password" placeholder="Password">
                             <button type="submit" class="btn">login</button>
                         <a href="">Forgot password</a>
                         </form>
 
-                        <form>
+                        <form id="RegForm">
                             <input type="text" placeholder="User">
                             <input type="email" placeholder="Email">
                             <button type="submit" class="btn">Register</button>
