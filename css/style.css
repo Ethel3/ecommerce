@@ -429,6 +429,44 @@ th:last-child{
     width: 100px;
     display: inline-block;
 }
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px ;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+
+
+
+
 
 
 
