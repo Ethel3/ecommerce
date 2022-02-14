@@ -15,19 +15,19 @@
     <div class="navbar">
         <div class="logo">
             <a href="index.html">
-                <img src="../images/logo.png" width="125px">
+                <a href="../all-products.html"><img src="../images/logo.png" width="125px"></a>
             </a>
         </div>
         <nav>
             <ul id="MenuItems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="all-products.html">Products</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/all-products.html">Products</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">contact</a></li>
-                <li><a href="">Account</a></li>
+                <li><a href="account.html">Account</a></li>
             </ul>
         </nav>
-        <img src="../images/cart.png" width="30px" height="30px">
+        <a href="../cart.html"><img src="../images/cart.png" width="30px" height="30px"></a>
         <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
             
     </div>
@@ -39,25 +39,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    <img src="../images/image1.png" width="100%">
+                    <a href="../single-product.html"><img src="../images/image1.png" width="100%"></a>
                 </div>
                 <div class="col-2">
                    <div class="form-container">
                        <div class="form-btn">
-                           <span onclick="login()">login</span>
+                           <span onclick="login()">Login</span>
                            <span onclick="register()">Register</span>
                            <hr id="Indicator">
                         </div>
                         <form id="LoginForm">
-                            <input type="text" placeholder="User">
+                            <input type="text" placeholder="Username">
                             <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">login</button>
+                            <button type="submit" class="btn">Login</button>
                         <a href="">Forgot password</a>
                         </form>
 
                         <form id="RegForm">
-                            <input type="text" placeholder="User">
+                            <input type="text" placeholder="Username">
                             <input type="email" placeholder="Email">
+                            <input type="Password" placeholder="Password">
                             <button type="submit" class="btn">Register</button>
                         </form>
 
@@ -110,6 +111,6 @@
     </div>
 </div>
 <!---- js for toggle menu ------>.
-<script src="./js/app.js"></script>
+<script src="../js/app.js"></script>
 
     
