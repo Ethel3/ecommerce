@@ -476,7 +476,18 @@ form a{
    transition: transform 1s;
 
 }
- 
+/* #about{
+   padding: 0;
+   margin-top: 10px;
+   height: 10px;
+   width: 100px;
+   }
+   .div{
+      white-space: 2;
+      height: 20px;
+      margin-top: 5px;
+   }
+  */
 
 
 
